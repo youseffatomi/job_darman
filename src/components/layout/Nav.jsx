@@ -14,7 +14,7 @@ export default function Nav() {
 
   return (
     <nav className="container">
-      <ul className="flex items-center gap-[43px]  fixed top-[85px] left-1/2 -translate-x-1/2">
+      <ul className="flex items-center gap-[43px]  absolute top-[85px] left-1/2 -translate-x-1/2">
         {List.map((L, i) => (
           <li key={i} className={L.isActive && "opacity-30"}>
             <Link to={L.link} className="text-[18px] ">

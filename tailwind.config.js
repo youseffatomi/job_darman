@@ -12,6 +12,10 @@ export default {
           "2xl": "1170px",
         },
       },
+      fontWeight: {
+        medium: 500,
+        regular: 700,
+      },
     },
   },
 };

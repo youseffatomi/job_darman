@@ -1,0 +1,18 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+
+  &::after {
+    font-size: 20px;
+  }
+}
+
+#containerForBullets {
+  @apply flex items-center gap-[9px] justify-center mt-[48px];
+  .swiper-custom-bullet {
+    @apply w-[11px] h-[11px] bg-transparent block rounded-full border-2 border-solid border-white opacity-30 transition-all cursor-pointer;
+    &.active {
+      @apply bg-white opacity-100;
+    }
+  }
+}
