@@ -5,6 +5,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./style.scss";
 
+import { Button } from "@/components/FormComponents";
+
 import { Navigation, Pagination } from "swiper/modules";
 
 import LandingBG from "@/assets/images/landing-bg.png";
@@ -68,6 +70,10 @@ export default function Landing() {
         </Swiper>
         {/* custom pagination */}
         <div id="containerForBullets"></div>
+
+        <div className="mt-[58px] flex justify-center">
+          <Button color="#482BE7">Create an Account</Button>
+        </div>
       </div>
     </section>
   );

@@ -30,7 +30,7 @@ const SignUp = () => (
       <Input placeholder="Your password" />
     </div>
 
-    <Button className="mt-[40px]" color="#25DAC5">
+    <Button className="mt-[40px] w-full" color="#25DAC5">
       Create an Account
     </Button>
 
@@ -40,7 +40,9 @@ const SignUp = () => (
       <hr className="flex-grow border-[#141414] opacity-10" />
     </div>
 
-    <Button color="#1DA1F2">Login via Twitter</Button>
+    <Button color="#1DA1F2" className="w-full">
+      Login via Twitter
+    </Button>
   </form>
 );
 

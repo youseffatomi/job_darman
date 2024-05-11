@@ -4,7 +4,9 @@ export const Button = ({ children, color, className, ...props }) => (
   <button
     style={{ backgroundColor: color || "#ccc" }}
     {...props}
-    className={className + " py-[12px] w-full rounded-full text-[18px]"}
+    className={
+      className + " py-[12px] block px-[35px] rounded-full text-[18px]"
+    }
   >
     {children}
   </button>
