@@ -53,7 +53,7 @@ const Login = () => (
       <Input placeholder="Your password" />
     </div>
 
-    <Button className="mt-[40px]" color="#25DAC5">
+    <Button className="mt-[40px] w-full" color="#25DAC5">
       Login
     </Button>
   </form>
