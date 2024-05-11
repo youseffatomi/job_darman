@@ -1,0 +1,10 @@
+@import "https://fonts.googleapis.com/css?family=DM+Sans";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans";
+  background-color: rgb(172, 172, 255);
+  @apply text-body;
+}
