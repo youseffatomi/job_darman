@@ -6,6 +6,7 @@ export default {
       colors: {
         body: "#fff",
         label: "#1E0E62",
+        footer: "#2F1893",
       },
       container: {
         center: true,
